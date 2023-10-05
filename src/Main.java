@@ -64,7 +64,8 @@ public class Main {
         float massBreakfastKilo = (float) massBreakfast /1000;
         System.out.println("Вес спортзавтрака " + massBreakfast + " грамм или " + massBreakfastKilo + " килограмм.");
 
-        System.out.println("Задача 7");
+        System.out.println("Задача 7"); //
+
 
 
 
