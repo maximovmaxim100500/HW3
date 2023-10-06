@@ -64,7 +64,43 @@ public class Main {
         float massBreakfastKilo = (float) massBreakfast /1000;
         System.out.println("Вес спортзавтрака " + massBreakfast + " грамм или " + massBreakfastKilo + " килограмм.");
 
-        System.out.println("Задача 7"); //
+        System.out.println("Задача 7");
+        int weightLoss250 = 250;
+        int weightLoss500 = 500;
+        int resultWL = 7000; // количество грамм, которые нужно скинуть
+        int daysMax = resultWL/weightLoss250;
+        int daysMin = resultWL/weightLoss500;
+        int daysAverage = (daysMax + daysMin)/2;
+        System.out.println("Чтобы похудеть на 7 кг потребуется минимум " +
+                daysMin + " дней и максимум " + daysMax + " дней. Среднее количество " +
+                "дней для нужного результата " + daysAverage + ".");
+
+        System.out.println("Задача 8");
+        int salaryMary2022 = 67760;
+        int salaryDenis2022 = 83690;
+        int salaryKristin2022 = 76230;
+        float coef = 1.1f;
+        int salaryMary2023 = (int) (salaryMary2022 * coef);
+        int salaryDenis2023 = (int) (salaryDenis2022 * coef);
+        int salaryKristin2023 = (int) (salaryKristin2022 * coef);
+        int annualIncomeMary2022 = salaryMary2022 * 12;
+        int annualIncomeDenis2022 = salaryDenis2022 * 12;
+        int annualIncomeKristin2022 = salaryKristin2022 * 12;
+        int annualIncomeMary2023 = salaryMary2023 * 12;
+        int annualIncomeDenis2023 = salaryDenis2023 * 12;
+        int annualIncomeKristin2023 = salaryKristin2023 * 12;
+        System.out.println("Маша теперь получает " + salaryMary2023 + " рублей." +
+                " Годовой доход вырос на " +(annualIncomeMary2023-annualIncomeMary2022) +
+                " рублей.");
+        System.out.println("Денис теперь получает " + salaryDenis2023 + " рублей." +
+                " Годовой доход вырос на " +(annualIncomeDenis2023-annualIncomeDenis2022) +
+                " рублей.");
+        System.out.println("Кристина теперь получает " + salaryKristin2023 + " рублей." +
+                " Годовой доход вырос на " +(annualIncomeKristin2023-annualIncomeKristin2022) +
+                " рублей.");
+
+
+
 
 
 
